@@ -1,4 +1,4 @@
-https://github.com/Rosanraj/3.Social-link-profile/blob/main/3.Social%20links%20profile/design/destkop-design.jpg?raw=true
+![desktop-preview](https://github.com/Rosanraj/3.Social-link-profile/assets/131958853/f8080a95-688a-4136-9d33-a16308703e9a)
 
 # Frontend Mentor - Social links profile
 
