@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:wght@100..900&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 20%);
+  --DarkGrey: hsl(0, 0%, 12%);
+  --OffBlack: hsl(0, 0%, 8%);
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  background-color: var(--DarkGrey);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+}
+img.avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 50%;
+  width: 30%;
+}
+
+div.box {
+  width: 300px;
+  height: 600px;
+  background-color: var(--OffBlack);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+div.profile {
+  background-color: var(--DarkGrey);
+  margin: 1.3rem;
+  border-radius: 10px;
+  height: 430px;
+}
+
+p#name {
+  color: var(--white);
+  text-align: center;
+  font-size: large;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+p#place {
+  color: yellowgreen;
+  text-align: center;
+  font-size: 11px;
+  font-weight: bolder;
+  margin-top: 8px;
+}
+
+p#role {
+  color: var(--white);
+  text-align: center;
+  font-size: smaller;
+  margin-top: 20px;
+}
+
+div.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+#btn{
+  background-color: var(--Grey);
+  border-radius: 5px;
+  padding: 10px 24px;
+  color: var(--white);
+  border: none;
+  font-weight: 600;
+  font-size: smaller;
+}
+#btn:hover{
+  background-color: yellowgreen;
+  cursor: pointer;
+  transition-duration: .3s;
+  color: var(--DarkGrey);
+}
+
+
